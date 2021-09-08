@@ -1,7 +1,7 @@
 
 /* Body Styles */
 body{
-    font: 'Times New Roman';
+    font: 'Times New Roman', sans-serif;
     background: #000;
     color: #fff;
 }
