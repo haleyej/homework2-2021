@@ -1,9 +1,12 @@
+
+/* Body Styles */
 body{
-    font: 'Times New Romance';
+    font: 'Times New Roman';
     background: #000;
     color: #fff;
 }
 
+/* Heading and Paragraph Styles */
 h1 {
     font-size: 64px;
     text-align: center;
@@ -21,15 +24,13 @@ p {
     padding-top: 15px;
 }
 
-img {
-    /* fill in!!! */
-}
-
-div{
+/* Div and Color Styles */
+div {
     height: 150px;
     padding: 25px;
 }
 
+/* selector stuff, worry about later */
 .red{
    background: #ff0000;
    text-align: right; 
@@ -44,4 +45,3 @@ div{
     background: #ffe600;
     text-align: right;
 }
-
