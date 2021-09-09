@@ -24,24 +24,50 @@ p {
     padding-top: 15px;
 }
 
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+}
+
 /* Div and Color Styles */
 div {
-    height: 150px;
+    min-height: 150px;
     padding: 25px;
 }
 
 /* selector stuff, worry about later */
-.red{
+#red{
    background: #ff0000;
    text-align: right; 
 }
 
-.blue{
+#blue{
     background: #00ff;
     text-align: left;
 }
 
-.yellow {
+#yellow {
     background: #ffe600;
     text-align: right;
+}
+
+#yellow h2{
+    color: #000;
+    test-shadow: 4px 4px 2px #c7e2c7;
+}
+
+#yellow p{
+    color: #000;
+}
+
+#green{
+    background: #008000;
+    text-align: left;
+}
+
+footer p{
+    text-align: center;
+    padding: 0 10px 0 0;
 }
